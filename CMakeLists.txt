@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(igl_predicates)
+project(predicates)
 
 if(NOT CMAKE_VERSION VERSION_LESS "3.3")
 	# https://cmake.org/cmake/help/latest/policy/CMP0063.html
