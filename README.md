@@ -1,4 +1,4 @@
-##Routines for Arbitrary Precision Floating-point Arithmetic and Fast Robust Geometric Predicates##
+## Routines for Arbitrary Precision Floating-point Arithmetic and Fast Robust Geometric Predicates ##
 
 This repo is forked from <https://www.cs.cmu.edu/~quake/robust.html>.
 
