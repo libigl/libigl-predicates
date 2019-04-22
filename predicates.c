@@ -651,7 +651,6 @@ float uniformfloatrand()
 /*                                                                           */
 /*****************************************************************************/
 
-static
 void exactinit()
 {
   REAL half;
@@ -1029,7 +1028,6 @@ REAL *h;
 /*                                                                           */
 /*****************************************************************************/
 
-static
 int fast_expansion_sum_zeroelim(elen, e, flen, f, h)  /* h cannot be e or f. */
 int elen;
 REAL *e;
@@ -1302,7 +1300,6 @@ REAL *h;
 /*                                                                           */
 /*****************************************************************************/
 
-static
 int scale_expansion_zeroelim(elen, e, b, h)   /* e and h cannot be the same. */
 int elen;
 REAL *e;
@@ -1403,7 +1400,6 @@ REAL *h;
 /*                                                                           */
 /*****************************************************************************/
 
-static
 REAL estimate(elen, e)
 int elen;
 REAL *e;
@@ -1898,7 +1894,6 @@ REAL *pd;
   return deter[deterlen - 1];
 }
 
-static
 REAL orient3dadapt(pa, pb, pc, pd, permanent)
 REAL *pa;
 REAL *pb;
@@ -2304,7 +2299,6 @@ REAL permanent;
   return finnow[finlength - 1];
 }
 
-static
 REAL orient3d(pa, pb, pc, pd)
 REAL *pa;
 REAL *pb;
@@ -2665,7 +2659,6 @@ REAL *pd;
   return deter[deterlen - 1];
 }
 
-static
 REAL incircleadapt(pa, pb, pc, pd, permanent)
 REAL *pa;
 REAL *pb;
@@ -3240,7 +3233,6 @@ REAL permanent;
   return finnow[finlength - 1];
 }
 
-static
 REAL incircle(pa, pb, pc, pd)
 REAL *pa;
 REAL *pb;
