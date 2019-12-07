@@ -651,7 +651,7 @@ static float uniformfloatrand()
 /*                                                                           */
 /*****************************************************************************/
 
-static void exactinit()
+void exactinit()
 {
   REAL half;
   REAL check, lastcheck;
