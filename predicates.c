@@ -369,14 +369,14 @@
   Square(a1, _j, _1); \
   Two_Two_Sum(_j, _1, _l, _2, x5, x4, x3, x2)
 
-REAL splitter;     /* = 2^ceiling(p / 2) + 1.  Used to split floats in half. */
-REAL epsilon;                /* = 2^(-p).  Used to estimate roundoff errors. */
+static REAL splitter;     /* = 2^ceiling(p / 2) + 1.  Used to split floats in half. */
+static REAL epsilon;                /* = 2^(-p).  Used to estimate roundoff errors. */
 /* A set of coefficients used to calculate maximum roundoff errors.          */
-REAL resulterrbound;
-REAL ccwerrboundA, ccwerrboundB, ccwerrboundC;
-REAL o3derrboundA, o3derrboundB, o3derrboundC;
-REAL iccerrboundA, iccerrboundB, iccerrboundC;
-REAL isperrboundA, isperrboundB, isperrboundC;
+static REAL resulterrbound;
+static REAL ccwerrboundA, ccwerrboundB, ccwerrboundC;
+static REAL o3derrboundA, o3derrboundB, o3derrboundC;
+static REAL iccerrboundA, iccerrboundB, iccerrboundC;
+static REAL isperrboundA, isperrboundB, isperrboundC;
 
 /*****************************************************************************/
 /*                                                                           */
